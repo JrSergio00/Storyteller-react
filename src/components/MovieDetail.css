@@ -1,0 +1,38 @@
+main{
+    padding: 3%;
+    color: antiquewhite;
+}
+.detailMovie{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(194, 194, 194, 0.1);
+    border-radius: 15px;
+    padding: 2%;
+}
+main .imageAndTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main .imageAndTitle img{
+    width: 60%;
+}
+main .imageAndTitle h3{
+    color: antiquewhite;
+    padding: 3% 0;
+    font-size: xx-large;
+}
+
+.detailMovie p{
+    display: block;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.detailMovie .overview{
+    text-indent: 1.5em;
+}
+.detailMovie svg{
+    color: rgb(207, 207, 0);
+}

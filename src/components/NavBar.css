@@ -1,0 +1,54 @@
+.NavBar {
+    background-color: #000000;
+    box-shadow: rgba(0, 0, 0, 0.1) 5px 10px 50px;
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5% 3%;
+    position: sticky;
+    top: 0;
+}
+
+#logo {
+    width: 60%;
+}
+#user-image {
+    height: 2.5em;
+}
+
+.NavBar form input {
+    background-color: #000000;
+    border: 2px solid #373737;
+    padding: 3% 5%;
+    width: 90%;
+    border-radius: 20px;
+    color: white;
+    transition: .3s;
+}
+
+.NavBar form input:focus {
+    outline: none;
+    background-color: rgb(37, 37, 37 , 0.3);
+}
+
+.NavBar form {
+    display: flex;
+    align-items: center;
+    gap: 3%;
+    width: 40%;
+}
+
+.NavBar form button {
+    background: none;
+    border: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.NavBar form button svg{
+    font-size: x-large;
+}
